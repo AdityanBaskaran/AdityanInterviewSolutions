@@ -1,0 +1,3 @@
+Note:  
+	1. For the redshiftconnection.py , AS the redshift service resoure is on the expensive side, i was not ableto spin up one, due to which the output was not completely tested.
+	2. Also since IAM Credentials should not be used explicitly I had used AWS CLI to configure aws credentials , due to which you will not find credential related stuff in S3 and Redshift connection codes.
